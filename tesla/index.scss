@@ -8,4 +8,12 @@
 
 // components( button, card, navbar )
 @import "components/card";
-// utilities (margin, padding, opacity)
+@import "components/button";
+
+.container {
+  max-width: 1200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
