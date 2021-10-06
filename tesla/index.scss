@@ -3,6 +3,8 @@
 @import "variables";
 // base & layot
 @import "base";
+@import "breakpoints";
+@import "grid";
 
 // colors
 @import "colors";
@@ -10,11 +12,5 @@
 // components( button, card, navbar )
 @import "components/card";
 @import "components/button";
+@import "components/navbar";
 @import "utilities";
-.container {
-  max-width: 1200;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}

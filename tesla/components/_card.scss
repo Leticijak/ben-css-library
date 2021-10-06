@@ -6,10 +6,8 @@
   border: $base-border-thickness solid #ddd;
   box-shadow: $base-box-shadow;
   border-radius: math.div($base-border-radius, 2);
-  background-color: $primary;
+
   //   change later
-  margin: 30px;
-  width: 400px;
 
   .card-title {
     font-size: $font-size-lg;
